@@ -1,0 +1,26 @@
+
+*{margin:0 auto;padding:0 auto;background: #000;}
+
+.date{width:100%;background-color: #161618;border-top:1px solid #37291C;border-bottom:1px solid #37291C;}
+
+/*如果右边无icon的话width:100%*/
+
+.dateContent{width:85%;}
+
+.date,.dateContent,.dateContent>div,.dateIcon{height:50px;line-height: 50px;float:left;}
+
+.dateLeft{text-align: right;}
+
+.dateLeft i,.dateRight i{font-size: 25px;color:#8d6a4a;margin-top: 13px;}
+
+.dateShow{width:70%;}
+
+.dateShow span{color:#B98659;font-size: 19px;}
+
+.dateRight{text-align: left;}
+
+.dateContent>div img,.dateIcon>img{width:30px;margin-top: 9px;}
+
+.dateLeft,.dateRight,.dateIcon{width: 15%;}
+
+.dateShow,.dateIcon{text-align: center;}
